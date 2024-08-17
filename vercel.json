@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/server/(.*)",
+      "dest": "https://lumina-ai-server.onrender.com/$1"
+    }
+  ]
+}
